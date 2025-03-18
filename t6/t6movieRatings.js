@@ -2,8 +2,8 @@
 const n = prompt('How many movies?');
 const movies = [];
 for (let i = 0; i < n; i++) {
-  const name = prompt('name:');
-  const rating = prompt('rating:');
+  const name = prompt('give name:');
+  const rating = prompt('give rating 1-5:');
   movies.push({name: name, rating: rating});
 }
 
