@@ -1,0 +1,12 @@
+'use strict';
+const fruits = ['apple', 'banana', 'orange', ' grape', 'kiwi'];
+console.log('Fruits: ' + fruits);
+console.log('Lenghth of fruits: ' + fruits.length);
+console.log('element at index 2: ' + fruits[2]);
+console.log('last element: ' + fruits[fruits.length - 1]);
+const vegetables = [];
+vegetables.push(prompt('give vege 1'));
+vegetables.push(prompt('give vege 2'));
+vegetables.push(prompt('give vege 3'));
+console.log('Veggies: ' + vegetables);
+console.log('Veggies length: ' + vegetables.length);
